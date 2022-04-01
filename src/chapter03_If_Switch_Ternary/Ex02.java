@@ -14,6 +14,7 @@ public class Ex02 {
      Ilk Harfler Buyuk harf ile baslamalidir.
      */
 
+    
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
