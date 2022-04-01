@@ -1,4 +1,4 @@
-package chapter01_SYSO;
+package chapter01_SysOut;
 
 public class E7 {
     /*
