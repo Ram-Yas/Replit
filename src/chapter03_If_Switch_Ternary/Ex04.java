@@ -6,20 +6,15 @@ public class Ex04 {
         /*
         Char değişken yanıtının değerini test eden ve aşağıdaki işlemleri gerçekleştiren bir switch ifadesi yazın:
 
-yanıt a ise,
+    yanıt a ise,     "Talebiniz işleniyor" mesajı yazdırılır
 
-"Talebiniz işleniyor" mesajı yazdırılır
+    yanıt b ise,  "yine de ilgilendiğiniz için teşekkür ederiz" mesajı yazdırılır
 
-yanıt b ise,
+    yanıt c ise, "Üzgünüz, şu anda herhangi bir yardım yok" mesajı yazdırılır
 
-"yine de ilgilendiğiniz için teşekkür ederiz" mesajı yazdırılır yanıt c ise,
+    başka herhangi bir yanıt değeri için, "Geçersiz giriş, lütfen tekrar deneyin!" yazdırılır
 
-"Üzgünüz, şu anda herhangi bir yardım yok" mesajı yazdırılır
-
-başka herhangi bir yanıt değeri için,
-
-"Geçersiz giriş, lütfen tekrar deneyin!" yazdırılır
-         */
+             */
 
         char harf = 'b';
 
