@@ -13,6 +13,18 @@ public class Ex03 {
     */
     public static void main(String[] args) {
 
+        int sayi1=25;
+        int sayi2=46;
+        int toplam=sayi1+sayi2;
+        if (toplam>=0){
+            toplam =sayi1+sayi2;
+            if(toplam>1000000000|| (sayi1>=1000000000 &&sayi2>=1000000000)){
+                System.out.println("Overflow");            }
+            else
+                System.out.print("Numaralarin Toplami:"+toplam);
+
+        }
+
     }
 
 }
