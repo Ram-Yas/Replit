@@ -1,5 +1,7 @@
 package chapter03_If_Switch_Ternary;
 
+import java.util.Scanner;
+
 public class Ex06 {
     /*
     Kullanıcıdan bir isim yazmasını isteyin, adın uzunluğu 3 olmalıdır.
@@ -11,4 +13,11 @@ public class Ex06 {
     Ternary kullanin.
      */
 
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String isim = scan.next();
+
+
+
+    }
 }
