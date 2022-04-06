@@ -1,4 +1,4 @@
-package chapter04;
+package chapter04_For_while;
 
 import java.util.Scanner;
 

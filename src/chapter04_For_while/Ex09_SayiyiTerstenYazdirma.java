@@ -1,6 +1,4 @@
-package chapter04;
-
-import java.util.Scanner;
+package chapter04_For_while;
 
 public class Ex09_SayiyiTerstenYazdirma {
 
