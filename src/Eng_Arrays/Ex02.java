@@ -10,7 +10,13 @@ public class Ex02 {
      */
     public static void main(String[] args) {
         String str =  "Coding is greate.";
-       // String arr = str.split();
+        String arr [] = str.split("");
         String arrTers="";
+
+        for (int i = arr.length - 1; i >= 0; i--) {
+            arrTers+= arr[i];
+
+        }
+        System.out.println(arrTers);
     }
 }
