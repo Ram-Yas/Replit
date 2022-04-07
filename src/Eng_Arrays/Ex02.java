@@ -8,5 +8,9 @@ public class Ex02 {
 
     Output : .etaerg si gnidoC
      */
-
+    public static void main(String[] args) {
+        String str =  "Coding is greate.";
+       // String arr = str.split();
+        String arrTers="";
+    }
 }

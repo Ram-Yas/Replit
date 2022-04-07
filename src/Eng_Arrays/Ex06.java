@@ -21,7 +21,7 @@ public class Ex06 {
     }
 
     private static void printMinMax(int[] arr) {
-        int min= arr[0];
+        int min=arr[0];
         int max=0;
 
         for (int i = 0; i < arr.length; i++) {
