@@ -19,9 +19,7 @@ public class Ex05 {
              ) {
             toplam +=each;
         }
-     //  for (int i = 0; i < array.length; i++) {
-     //      toplam += array[i];
-     //  }
+
         double average = toplam / (array.length);
         System.out.println("average = " + average);
     }
