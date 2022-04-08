@@ -10,4 +10,8 @@ public class Ex02 {
     Output: [Umit,Emin,Furkan,Kerem,Taylan,Orhan,Sinan,Kemal,Ahmet,Ali]
      */
 
+    public static void main(String[] args) {
+
+
+    }
 }
