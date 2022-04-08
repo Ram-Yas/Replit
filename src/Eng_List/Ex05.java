@@ -1,5 +1,7 @@
 package Eng_List;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Ex05 {
@@ -21,13 +23,25 @@ public class Ex05 {
 
         int count = 0;
 
+        List<Integer> primeNumbers = new ArrayList<Integer>();
 
-        while (count < 10) {
+        while (count<= 10) { //continue until counter equals 10
+            int sayac = 0;
+            for (int i = 2; i < number; i++) {//control of the numbers one by one
+                if (number % i == 0) { //if the number is divisible with any other number
+                    sayac++; // if so
+                }
+            }
+            if (sayac == 0) { //that means our number is not divisible with any other number
 
-
+                primeNumbers.add(number); //add the number on the list
+                count++; //as the number is prime, increase the counter
+            }
+            number++; //increase the number
 
         }
 
+        System.out.println(primeNumbers);//print list
 
     }
 }
