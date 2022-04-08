@@ -29,5 +29,4 @@ public class Ex01 {
         return ters;
     }
 
-
 }

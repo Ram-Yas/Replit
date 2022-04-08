@@ -17,6 +17,16 @@ public class Ex05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("bir sayi giriniz: ");
+        int number = scanner.nextInt();
+
+        int count = 0;
+
+
+        while (count < 10) {
+
+
+
+        }
 
 
     }
