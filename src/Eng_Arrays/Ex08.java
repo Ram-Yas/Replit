@@ -17,9 +17,7 @@ public class Ex08 {
         int [] Input1={1,2,3,4};
         int []  Input2={5,6};
 
-        //System.out.println(mergeArrayMembers(Input1, Input2));
         System.out.println(Arrays.toString(mergeArrayMembers(Input1, Input2)));
-
 
     }
 

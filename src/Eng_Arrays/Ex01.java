@@ -2,36 +2,32 @@ package Eng_Arrays;
 
 public class Ex01 {
 
-     /*
-    Write a Java program to get a String from user as input and find the maximum occurring character in that string. (Ignore case sensitivity)
+    /*
+    Write a return method to reverse number.
 
-    input : Learning java is easy
+    Input : 12345
 
-    output: maximum occurring character is : a
-
+    Output : 54321
      */
 
     public static void main(String[] args) {
 
-        String str="Learningjavaiseasysss";
+       String str = "12345";
+       String arr [] = str.split("");
 
-        String arr[]=str.split("");
+        System.out.println(tersCevir(arr));
 
-        String maxHarf="";
-        int count=0;
-        int maxcount=0;
-        for (int i = 0; i <arr.length ; i++) {
-            for (int j = i+1; j <arr.length ; j++) {
-                if (arr[i].equals(arr[j])){
-                    count++;
-                }
-            }
-            if (count>maxcount){
-                maxcount=count;
-                maxHarf=arr[i];
-            }
-            count=0;
-        }
-        System.out.println("maximum occurring character is : " + maxHarf);
     }
+
+    private static String tersCevir(String[] arr) {
+
+        String ters = "";
+        for (int i = arr.length-1; i >= 0; i--) {
+            ters += arr[i];
+        }
+
+        return ters;
+    }
+
+
 }
