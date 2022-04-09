@@ -21,8 +21,10 @@ public class Ex04 {
         for (int i = 0; i < list.size(); i++) {
             for (int j = 0; j < list.get(i).length(); j++) {
 
+
                 if (list.get(i).charAt(j)=='a' || list.get(i).charAt(j)=='A'  ) {
                     list.remove(i);
+
                 }
             }
         }
