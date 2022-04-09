@@ -16,18 +16,16 @@ public class Ex04 {
 
         List<String> list = new ArrayList<String>(List.of("Ali", "Veli", "Ayse", "Fatma", "Omer"));
 
-        System.out.println("list in the beginning: "+list);
+        System.out.println("list in the beginning: " + list);
 
         for (int i = 0; i < list.size(); i++) {
             for (int j = 0; j < list.get(i).length(); j++) {
-
-
-                if (list.get(i).charAt(j)=='a' || list.get(i).charAt(j)=='A'  ) {
+                if (list.get(i).toLowerCase().contains("a") || list.get(i).toLowerCase().contains("A")) {
                     list.remove(i);
-
                 }
             }
         }
-        System.out.println("list at the end: "+list);
+
+        System.out.println("list at the end: " + list);
     }
 }
