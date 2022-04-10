@@ -12,6 +12,7 @@ public class Ex04 {
     OUTPUT :   [Veli,Omer]
      */
 
+
     public static void main(String[] args) {
 
         List<String> list = new ArrayList<String>(List.of("Ali", "Veli", "Ayse", "Fatma", "Omer"));
@@ -19,11 +20,11 @@ public class Ex04 {
         System.out.println("list in the beginning: " + list);
 
         for (int i = 0; i < list.size(); i++) {
-            for (int j = 0; j < list.get(i).length(); j++) {
-                if (list.get(i).toLowerCase().contains("a") || list.get(i).toLowerCase().contains("A")) {
+           for (int j = 0; j < list.get(i).length(); j++) {
+                if (list.get(i).toLowerCase().contains("a")) {
                     list.remove(i);
                 }
-            }
+           }
         }
 
         System.out.println("list at the end: " + list);
