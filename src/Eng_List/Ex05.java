@@ -21,11 +21,11 @@ public class Ex05 {
         System.out.print("bir sayi giriniz: ");
         int number = scanner.nextInt();
 
-        int count = 1;
+        int count = 0;
         number++;
         List<Integer> primeNumbers = new ArrayList<Integer>();
 
-        while (count<= 10) { //continue until counter equals 10
+        while (count< 10) { //continue until counter equals 10
 
             int sayac = 0;
             for (int i = 2; i < number; i++) {//control of the numbers one by one

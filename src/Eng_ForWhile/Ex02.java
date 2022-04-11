@@ -10,6 +10,5 @@ public class Ex02 {
     Expected OutPut:  GCD for 30 and 40 = 10
                       LCM for 30 and 40 = 120
 
-
      */
 }
