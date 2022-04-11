@@ -21,15 +21,16 @@ public class Ex05 {
         System.out.print("bir sayi giriniz: ");
         int number = scanner.nextInt();
 
-        int count = 0;
-
+        int count = 1;
+        number++;
         List<Integer> primeNumbers = new ArrayList<Integer>();
 
         while (count<= 10) { //continue until counter equals 10
+
             int sayac = 0;
             for (int i = 2; i < number; i++) {//control of the numbers one by one
                 if (number % i == 0) { //if the number is divisible with any other number
-                    sayac++; // if so
+                    sayac++; // if so increase the sayac
                 }
             }
             if (sayac == 0) { //that means our number is not divisible with any other number

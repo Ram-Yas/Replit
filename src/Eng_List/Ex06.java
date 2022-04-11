@@ -22,18 +22,22 @@ public class Ex06 {
         String input2 []=  {"sofia","brad","grace","emily","hazel"};
 
         List<String> list1 = new ArrayList<String>(Arrays.asList(input1));
-       // list1.toUpperCase();
         System.out.println(list1);
         List<String> list2 = new ArrayList<String>(Arrays.asList(input2));
         System.out.println(list2);
 
         List<String> output = new ArrayList<String>();
 
-
             for (int j = 0; j < list2.size(); j++) {
                 for (int i = 0; i < list1.size(); i++) {
+
                 if (list2.get(j).toLowerCase().contains(list1.get(i).toLowerCase())){
                     output.add(list2.get(j));
+
+                /*if (list1.get(i).toLowerCase().contains(list2.get(j).toLowerCase())){
+                    output.add(list1.get(i).toLowerCase());
+
+                 */
                 }
 
             }
