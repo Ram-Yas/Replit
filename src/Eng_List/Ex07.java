@@ -23,15 +23,18 @@ public class Ex07 {
 
 
         List<Integer> newList = new ArrayList<Integer>();
-        int number = 6;
+        int number = 4;
 
 
         for (int i = 0; i < list.size(); i++) {
 
-            if (list.get(i)==number){
+           /* if (list.get(i)==number){
                 list.remove(i);
             } else
-            newList.add(list.get(i));
+            newList.add(list.get(i));*/
+            if(list.get(i)!=number){
+                newList.add(list.get(i));
+            }
         }
 
         System.out.println(newList);

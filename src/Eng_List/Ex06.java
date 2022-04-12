@@ -18,8 +18,8 @@ public class Ex06 {
 
     public static void main(String[] args) {
 
-        String input1 []=  {"John","Brad","Ange","Sofia","Emily"};
-        String input2 []=  {"sofia","brad","grace","emily","hazel"};
+        String input1[] = {"John", "Brad", "Ange", "Sofia", "Emily"};
+        String input2[] = {"sofia", "brad", "grace", "emily", "hazel"};
 
         List<String> list1 = new ArrayList<String>(Arrays.asList(input1));
         System.out.println(list1);
@@ -28,22 +28,17 @@ public class Ex06 {
 
         List<String> output = new ArrayList<String>();
 
-            for (int j = 0; j < list2.size(); j++) {
-                for (int i = 0; i < list1.size(); i++) {
+        for (int j = 0; j < list2.size(); j++) {
+            for (int i = 0; i < list1.size(); i++) {
 
-                if (list2.get(j).toLowerCase().contains(list1.get(i).toLowerCase())){
+                if (list2.get(j).toLowerCase().contains(list1.get(i).toLowerCase())) {
                     output.add(list2.get(j));
 
-                /*if (list1.get(i).toLowerCase().contains(list2.get(j).toLowerCase())){
-                    output.add(list1.get(i).toLowerCase());
-
-                 */
                 }
 
             }
         }
         System.out.println(output);
-
 
 
     }
