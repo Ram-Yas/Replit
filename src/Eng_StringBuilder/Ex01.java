@@ -9,14 +9,5 @@ public class Ex01 {
      */
     public static void main(String[] args) {
 
-        StringBuilder sentence = new StringBuilder("Madam");
-       // sentence.reverse(); //as StringBuilder is immutable, no need to da assignment
-        StringBuilder result = new StringBuilder(sentence.reverse());
-        //if (sentence.toString().toLowerCase().equals(result.toString().toLowerCase())){
-            if (sentence.equals(result)){ //the same result for 15th line
-
-                System.out.println("Reversed sentence : "+result+ " It is palindrome");
-        } else System.out.println("Reversed sentence : "+result+ " It is not palindrome");
-
     }
 }

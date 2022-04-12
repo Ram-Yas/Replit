@@ -17,22 +17,25 @@ public class Ex02 {
         String studentSurname;
         String studentName ;
 
-        Ex02 student = new Ex02(studentName, studentSurname);
         studentSurname = "bitmedi";
         studentName = "Ogrencilik";
-        changeName(studentName, studentSurname).;
+       Ex02 student = new Ex02("ali", "can");
+
+    }
+
+    private static Object changeName(String studentName, String studentSurname) {
+        studentName = "veli";
+        studentSurname = "gol";
+        return studentName;
     }
 
 
     public Ex02(String studentName, String studentSurname) {
     }
 
-    /*
-    public static String changeName(String studentName, String studentSurname) {
 
 
-        }
-     */
+
 
 
 

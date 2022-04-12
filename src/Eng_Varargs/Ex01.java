@@ -10,13 +10,13 @@ public class Ex01 {
      */
 
     public static void main(String[] args) {
-        int number1 = 1;
-        int number2 = 2;
-        int number3 = 3;
-        int number4 = 4;
-        int number5 = 5;
+     // int number1 = 1;
+     // int number2 = 2;
+     // int number3 = 3;
+     // int number4 = 4;
+     // int number5 = 5;
 
-        System.out.println(sumNum(number1, number2, number3, number4, number5));
+        System.out.println(sumNum(5, 15, 20, 30, 40));
 
     }
 
