@@ -36,6 +36,7 @@ public class Ex02 {
         studentSurname = yeniSoyisim;
     }
 
+
     private static void changeName(String student1) {
         studentName = "Ahmet";
         studentSurname = "yilmaz";
