@@ -21,7 +21,7 @@ public class Ex02 {
         String studentSurname = "";
         String studentName = "";
 
-        Ex02 student1 = new Ex02("ali", "can");
+        Ex02 student1 = new Ex02("can", "ali");
         System.out.println("student1 : " + student1);
         changeName(student1.studentName);
         System.out.println(student1);
@@ -29,17 +29,19 @@ public class Ex02 {
         System.out.println(student1);
     }
 
-    private static void changeSurname(String studentSurname) {
+    private static void changeSurname(String student1) {
         Scanner scan = new Scanner(System.in);
         System.out.print("yeni soyismi giriniz: ");
-        String yeniSoyisim = scan.next();
-        studentSurname = yeniSoyisim;
+        String yeniIsim = scan.next();
+        studentName = yeniIsim;
     }
 
 
     private static void changeName(String student1) {
-        studentName = "Ahmet";
-        studentSurname = "yilmaz";
+        Scanner scan = new Scanner(System.in);
+        System.out.print("yeni ismi giriniz: ");
+        String yeniSoyisim = scan.next();
+        studentSurname = yeniSoyisim;
     }
 
     public Ex02(String studentSurname, String studentName) {
